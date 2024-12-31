@@ -1,6 +1,8 @@
 # Candidiate_Search
 
+![Screenshot 2024-12-31 at 4 22 27 PM](https://github.com/user-attachments/assets/4d92fb66-ec4c-4e06-a421-841937fd7ed6)
 
+![Screenshot 2024-12-31 at 4 22 40 PM](https://github.com/user-attachments/assets/ca392118-634b-4861-a7b7-3411feb0ae03)
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
