@@ -1,33 +1,58 @@
-# React + TypeScript + Vite
+# Candidiate_Search
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
 
-* [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md), which uses [Babel](https://babeljs.io/) for Fast Refresh
-* [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc), which uses [SWC](https://swc.rs/) for Fast Refresh
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-## Expanding the ESLint configuration
+## Description
+This is a React application that allows users to search for potential GitHub candidates using the GitHub API. The app provides a user-friendly interface to view the candidates, saving interesting profiles and rejecting others. 
 
-If you're developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## Table of Contents
+- [Description](#description)
+- [installation](#installation)
+- [usage](#usage)
+- [License](#license)
+- [Contributing](#contributing)
+- [Tests](#test)
+- [Questions](#questions)
 
-* Configure the top-level `parserOptions` property as follows:
+## Installation
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+To install and use this application locally, please follow these steps:
 
-* Replace `plugin:@typescript-eslint/recommended` with `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`.
-* Optionally, add `plugin:@typescript-eslint/stylistic-type-checked`.
-* Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` and `plugin:react/jsx-runtime` to the `extends` list.
+1. Clone the repository using the SSH:
 
----
-© 2024 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
+    `git@github.com:allenarnoldy/candidate_search.git`
+2. Navigate to the project directory:
+
+    `cd candidate_search`
+3. Install the dependencies:
+
+    `npm install` 
+
+## Usage
+To use the candidate_search locally you will run:
+
+    `npm run dev`
+
+You can also visit the live page:
+
+    https://candidate-search-4d7p.onrender.com/SavedCandidates
+
+## License
+
+This project is under the MIT License.
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+## Contributions
+
+contributions are welcome. I did ask ChatGPT for some help with deploying to Render.
+
+## Tests
+
+Test the code by slecting the + or _ icons and verify that when selecting - a new user is loaded, when selecting +, the progile will load on the Potential Candidates page.
+
+## Questions
+- GitHub: https://github.com/allenarnoldy
+- Email: allenarnoldy@gmail.com
