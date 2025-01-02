@@ -33,6 +33,8 @@ To install and use this application locally, please follow these steps:
     `npm install` 
 
 ## Usage
+You're able to view the live website at https://candidate-search-4d7p.onrender.com/
+
 To use the candidate_search locally you will run:
 
     `npm run dev`
